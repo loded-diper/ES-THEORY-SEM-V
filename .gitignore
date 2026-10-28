@@ -1,0 +1,11 @@
+# Local LaTeX compilation and inspection outputs
+.build/
+.build-output.txt
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz

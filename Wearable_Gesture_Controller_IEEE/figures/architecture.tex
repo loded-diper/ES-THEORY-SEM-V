@@ -1,0 +1,22 @@
+% Editable vector diagram. All components are proposed, not implemented.
+\begin{tikzpicture}[
+  font=\footnotesize,
+  block/.style={draw=black!80,fill=black!4,rounded corners=1.5pt,
+    minimum height=13mm,text width=22mm,align=center,inner sep=3pt},
+  optional/.style={draw=black!70,dashed,fill=white,rounded corners=1.5pt,
+    minimum height=11mm,text width=50mm,align=center,inner sep=3pt},
+  flow/.style={-{Stealth[length=1.8mm]},line width=0.65pt}]
+\node[block] (imu) {IMU sensor\\6-axis input};
+\node[block,right=4.5mm of imu] (acq) {Data acquisition\\time + buffer};
+\node[block,right=4.5mm of acq] (pre) {Preprocessing\\filter + normalize};
+\node[block,right=4.5mm of pre] (cls) {Gesture classifier\\LSTM or GRU};
+\node[block,right=4.5mm of cls] (map) {Command mapping\\reject + debounce};
+\node[block,right=4.5mm of map] (out) {Receiver /\\simulated output};
+\foreach \a/\b in {imu/acq,acq/pre,pre/cls,cls/map,map/out}
+  \draw[flow] (\a) -- (\b);
+\node[optional,below=9mm of $(map.south)!0.5!(out.south)$] (physical)
+ {Optional future BLE / Wi-Fi integration\\and physical appliance actuation};
+\draw[flow,dashed] (out.south) -- ++(0,-3.5mm) -| (physical.north);
+\node[anchor=west,font=\footnotesize,align=left] at ($(imu.south west)+(0,-15mm)$)
+ {Solid: proposed logical design\quad Dashed: optional future hardware path};
+\end{tikzpicture}

@@ -1,0 +1,24 @@
+% Editable vector diagram of a proposed future evaluation, not an executed run.
+\begin{tikzpicture}[
+  font=\footnotesize,
+  shared/.style={draw=black!80,fill=black!4,rounded corners=1.5pt,
+    text width=69mm,align=center,minimum height=9mm,inner sep=3pt},
+  lane/.style={draw=black!80,fill=white,rounded corners=1.5pt,
+    text width=29mm,align=center,minimum height=12mm,inner sep=3pt},
+  opt/.style={lane,dashed},
+  flow/.style={-{Stealth[length=1.7mm]},line width=0.65pt}]
+\node[shared] (data) {Future labelled IMU streams (not collected)\\Participant / session split before windowing};
+\node[shared,below=4mm of data] (prep) {Shared sampling and preprocessing\\Illustration: 50 Hz, 64 samples, stride 16; six channels};
+\node[lane,below left=6mm and -29mm of prep] (lstm) {Baseline LSTM\\32 hidden units, FP32};
+\node[lane,below right=6mm and -29mm of prep] (gru) {Compact GRU\\24 hidden units, FP32};
+\node[opt,below=5mm of gru] (quant) {Optional 8-bit GRU\\Only if runtime supports it};
+\node[shared,below=44mm of prep] (eval) {Common held-out evaluation\\Accuracy, macro-F1, false activations, latency,\\flash, peak RAM, and energy (where measurable)};
+\draw[flow] (data) -- (prep);
+\draw[flow] (prep.south) -- ++(0,-2mm) -| (lstm.north);
+\draw[flow] (prep.south) -- ++(0,-2mm) -| (gru.north);
+\draw[flow] (lstm.south) -- (lstm.south |- eval.north);
+\draw[flow,dashed] (gru) -- (quant);
+\draw[flow,dashed] (quant.south) -- (quant.south |- eval.north);
+\draw[flow] (gru.east) -- ++(3mm,0) |- ($(eval.north east)+(-2mm,3mm)$)
+  -- ($(eval.north east)+(-2mm,0)$);
+\end{tikzpicture}
