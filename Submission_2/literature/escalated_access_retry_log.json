@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-29T08:12:37.925421+00:00",
+  "execution": "escalated permission retry after user granted full access",
+  "results": [
+    {
+      "url": "https://www.scopus.com/sources",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1109/TC.2021.3066883",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.scimagojr.com/journalsearch.php?q=IEEE%20Transactions%20on%20Computers",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}

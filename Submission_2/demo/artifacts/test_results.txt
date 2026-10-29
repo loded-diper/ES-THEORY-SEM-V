@@ -1,0 +1,12 @@
+test_causal_filter (test_demo.PipelineTests.test_causal_filter) ... ok
+test_command_rejection (test_demo.PipelineTests.test_command_rejection) ... ok
+test_invalid_input (test_demo.PipelineTests.test_invalid_input) ... ok
+test_metrics_against_known_confusion (test_demo.PipelineTests.test_metrics_against_known_confusion) ... ok
+test_model_and_window_shape (test_demo.PipelineTests.test_model_and_window_shape) ... ok
+test_normalization_training_only (test_demo.PipelineTests.test_normalization_training_only) ... ok
+test_split_groups_and_dimensions (test_demo.PipelineTests.test_split_groups_and_dimensions) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.237s
+
+OK

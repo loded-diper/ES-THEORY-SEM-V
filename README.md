@@ -2,30 +2,33 @@
 
 **Wearable Gesture Controller: An IMU-Based Edge Device for Gesture-Driven Smart Home Control**
 
-Theoretical mini-project report for V Semester B.Tech. (IT), MIT Manipal.
+V Semester B.Tech. IT, MIT Manipal.
 
-## Report and LaTeX project
-
-- [Read the compiled six-page IEEE report](Wearable_Gesture_Controller_IEEE/Wearable_Gesture_Controller_Report.pdf)
-- [Download the complete Overleaf-ready project](Wearable_Gesture_Controller_IEEE/Wearable_Gesture_Controller_Overleaf.zip)
-- [Main LaTeX source](Wearable_Gesture_Controller_IEEE/main.tex)
-- [Bibliography](Wearable_Gesture_Controller_IEEE/references.bib)
-- [Editable TikZ diagrams](Wearable_Gesture_Controller_IEEE/figures)
-- [Overleaf and local build instructions](Wearable_Gesture_Controller_IEEE/README.md)
-
-The report uses the IEEEtran conference class and includes two vector diagrams and five research references. It presents a proposed architecture, an analytical LSTM–GRU comparison, conditional quantization, and a future evaluation methodology. No hardware implementation, trained model, dataset collection, or measured benchmark results are claimed.
-
-## Team
-
-| Registration number | Name |
+| Team member | Registration number |
 | --- | --- |
-| 240911438 | Arya Choudhary |
-| 240911664 | Sanika Singh |
-| 240911680 | Vishad Sharma |
+| Arya Choudhary | 240911438 |
+| Sanika Singh | 240911664 |
+| Vishad Sharma | **240911580** |
 
-To compile locally with a suitable TeX installation:
+## Current package: Submission 2
+
+- [Setup, execution, reproduction, results, and limitations](Submission_2/README.md)
+- [Compiled IEEE report](Submission_2/report/report.pdf)
+- [LaTeX source](Submission_2/report/report.tex)
+- [Eight-slide PowerPoint](Submission_2/presentation.pptx)
+- [Python demonstration](Submission_2/demo/demo.py)
+- [Literature and verification audit](Submission_2/literature/SOURCES.md)
+- [Assignment checklist and outstanding requirements](Submission_2/ASSIGNMENT_CHECKLIST.md)
+
+The working software uses explicitly synthetic six-axis input, a compact trained GRU, and symbolic console commands. Its synthetic test scores do not estimate real-world gesture accuracy. No MCU, sensor, radio, or appliance is required or claimed as implemented.
+
+Ten recent research papers are reviewed, but their Scopus coverage has **not** been independently verified. Institutional indexing verification and a separate institution-approved similarity report remain required submission checks.
+
+Quick start after installing [the Python requirements](Submission_2/demo/requirements.txt):
 
 ```sh
-cd Wearable_Gesture_Controller_IEEE
-bash build.sh
+cd Submission_2
+python demo/demo.py
 ```
+
+The older [theoretical report folder](Wearable_Gesture_Controller_IEEE/) is retained as a historical draft. Its scope and team-number text are superseded by the current Submission 2 package.

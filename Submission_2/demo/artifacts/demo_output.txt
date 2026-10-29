@@ -1,0 +1,15 @@
+SYNTHETIC DATA ONLY - pipeline check, not real-world recognition accuracy.
+seed=42 | train/validation/test windows: 480/160/200
+GRU hidden=16, parameters=1220, threshold=0.80
+
+Synthetic held-out examples (first window of each class):
+TRUE CLASS      PREDICTED       CONFIDENCE  COMMAND
+background      background           0.995  NO_COMMAND
+swipe_left      swipe_left           0.992  LIGHT_OFF
+swipe_right     swipe_right          0.993  LIGHT_ON
+wave            wave                 0.995  FAN_TOGGLE
+
+Synthetic test accuracy: 1.0000
+Synthetic test macro-F1: 1.0000
+Host-only median / p95 inference: 0.668 / 0.949 ms
+No MCU deployment, appliance integration, or power measurements.

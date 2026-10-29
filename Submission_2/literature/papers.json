@@ -1,0 +1,118 @@
+[
+  {
+    "key": "tinyhar",
+    "title": "TinyHAR: A Lightweight Deep Learning Model Designed for Human Activity Recognition",
+    "authors": "Y. Zhou; H. Zhao; Y. Huang; M. Hefenbrock; T. Riedel; M. Beigl",
+    "bibauthors": "Y. Zhou and H. Zhao and Y. Huang and M. Hefenbrock and T. Riedel and M. Beigl",
+    "year": 2022,
+    "venue": "Proceedings of the International Symposium on Wearable Computers",
+    "doi": "10.1145/3544794.3558467",
+    "evidence": "paperswithcode",
+    "source": "https://github.com/teco-kit/ISWC22-HAR"
+  },
+  {
+    "key": "attend",
+    "title": "Attend and Discriminate: Beyond the State-of-the-Art for Human Activity Recognition using Wearable Sensors",
+    "authors": "Alireza Abedin; Mahsa Ehsanpour; Qinfeng Shi; Hamid Rezatofighi; Damith C. Ranasinghe",
+    "bibauthors": "Alireza Abedin and Mahsa Ehsanpour and Qinfeng Shi and Hamid Rezatofighi and Damith C. Ranasinghe",
+    "year": 2021,
+    "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+    "doi": "10.1145/3448083",
+    "evidence": "attend",
+    "source": "https://github.com/AdelaideAuto-IDLab/Attend-And-Discriminate"
+  },
+  {
+    "key": "tinyodom",
+    "title": "TinyOdom: Hardware-Aware Efficient Neural Inertial Navigation",
+    "authors": "Swapnil Sayan Saha; Sandeep Singh Sandha; Luis Antonio Garcia; Mani Srivastava",
+    "bibauthors": "Swapnil Sayan Saha and Sandeep Singh Sandha and Luis Antonio Garcia and Mani Srivastava",
+    "year": 2022,
+    "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+    "doi": "10.1145/3534594",
+    "evidence": "tinyodom",
+    "source": "https://github.com/nesl/tinyodom"
+  },
+  {
+    "key": "mcunet",
+    "title": "MCUNet: Tiny Deep Learning on IoT Devices",
+    "authors": "Ji Lin; Wei-Ming Chen; Yujun Lin; et al.",
+    "bibauthors": "Ji Lin and Wei-Ming Chen and Yujun Lin and others",
+    "year": 2020,
+    "venue": "Advances in Neural Information Processing Systems",
+    "doi": "10.48550/arXiv.2007.10319",
+    "preprint": true,
+    "evidence": "mcunet",
+    "source": "https://github.com/mit-han-lab/mcunet"
+  },
+  {
+    "key": "mcunetv2",
+    "title": "MCUNetV2: Memory-Efficient Patch-based Inference for Tiny Deep Learning",
+    "authors": "Ji Lin; Wei-Ming Chen; Han Cai; Chuang Gan; Song Han",
+    "bibauthors": "Ji Lin and Wei-Ming Chen and Han Cai and Chuang Gan and Song Han",
+    "year": 2021,
+    "venue": "Advances in Neural Information Processing Systems",
+    "doi": "10.48550/arXiv.2110.15352",
+    "preprint": true,
+    "evidence": "mcunetv2",
+    "source": "https://github.com/mit-han-lab/mcunet"
+  },
+  {
+    "key": "dory",
+    "title": "DORY: Automatic End-to-End Deployment of Real-World DNNs on Low-Cost IoT MCUs",
+    "authors": "Alessio Burrello; Angelo Garofalo; Nazareno Bruschi; Giuseppe Tagliavini; Davide Rossi; Francesco Conti",
+    "bibauthors": "A. Burrello and A. Garofalo and N. Bruschi and G. Tagliavini and D. Rossi and F. Conti",
+    "year": 2021,
+    "venue": "IEEE Transactions on Computers",
+    "doi": "10.1109/TC.2021.3066883",
+    "evidence": "dory",
+    "source": "https://github.com/pulp-platform/dory"
+  },
+  {
+    "key": "mlperf",
+    "title": "MLPerf Tiny Benchmark",
+    "authors": "Colby Banbury; Vijay Janapa Reddi; Peter Torelli; Jeremy Holleman; Nat Jeffries; Csaba Kiraly; Pietro Montino; David Kanter; Sebastian Ahmed; Danilo Pau; et al.",
+    "bibauthors": "Colby Banbury and Vijay Janapa Reddi and Peter Torelli and others",
+    "year": 2021,
+    "venue": "Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks",
+    "doi": "10.48550/arXiv.2106.07597",
+    "preprint": true,
+    "evidence": "mlperf",
+    "source": "https://github.com/mlcommons/tiny"
+  },
+  {
+    "key": "onceforall",
+    "title": "Once-for-All: Train One Network and Specialize it for Efficient Deployment",
+    "authors": "Han Cai; Chuang Gan; Tianzhe Wang; Zhekai Zhang; Song Han",
+    "bibauthors": "Han Cai and Chuang Gan and Tianzhe Wang and Zhekai Zhang and Song Han",
+    "year": 2020,
+    "venue": "International Conference on Learning Representations",
+    "doi": "10.48550/arXiv.1908.09791",
+    "preprint": true,
+    "evidence": "onceforall",
+    "source": "https://github.com/mit-han-lab/once-for-all"
+  },
+  {
+    "key": "tinytl",
+    "title": "TinyTL: Reduce Activations, Not Trainable Parameters for Efficient On-Device Learning",
+    "authors": "Han Cai; Chuang Gan; Ligeng Zhu; Song Han",
+    "bibauthors": "Han Cai and Chuang Gan and Ligeng Zhu and Song Han",
+    "year": 2020,
+    "venue": "Advances in Neural Information Processing Systems",
+    "doi": "10.48550/arXiv.2007.11622",
+    "preprint": true,
+    "evidence": "TinyTL",
+    "source": "https://github.com/mit-han-lab/tinyml/tree/master/tinytl"
+  },
+  {
+    "key": "tinytraining",
+    "title": "On-Device Training Under 256KB Memory",
+    "authors": "Ji Lin; Ligeng Zhu; Wei-Ming Chen; Wei-Chen Wang; Chuang Gan; Song Han",
+    "bibauthors": "Ji Lin and Ligeng Zhu and Wei-Ming Chen and Wei-Chen Wang and Chuang Gan and Song Han",
+    "year": 2022,
+    "venue": "Advances in Neural Information Processing Systems",
+    "doi": "10.48550/arXiv.2206.15472",
+    "preprint": true,
+    "evidence": "tinytraining",
+    "source": "https://github.com/mit-han-lab/tiny-training"
+  }
+]

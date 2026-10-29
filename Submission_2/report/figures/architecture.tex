@@ -1,0 +1,21 @@
+\begin{tikzpicture}[font=\footnotesize,
+ box/.style={draw=black!80,fill=black!4,rounded corners=1.5pt,
+ text width=22mm,align=center,minimum height=13mm,inner sep=3pt},
+ future/.style={draw=black!70,dashed,text width=61mm,align=center,
+ minimum height=10mm,inner sep=3pt,rounded corners=1.5pt},
+ flow/.style={-{Stealth[length=1.7mm]},line width=.65pt}]
+\node[box] (src) {Synthetic six-axis\\IMU-like streams};
+\node[box,right=4.5mm of src] (pre) {Causal filtering\\+ normalization};
+\node[box,right=4.5mm of pre] (win) {64-sample buffer\\stride 32};
+\node[box,right=4.5mm of win] (model) {GRU inference\\16 hidden units};
+\node[box,right=4.5mm of model] (map) {Reject + map\\threshold 0.80};
+\node[box,right=4.5mm of map] (out) {Console command\\or NO\_COMMAND};
+\foreach \a/\b in {src/pre,pre/win,win/model,model/map,map/out}
+ \draw[flow] (\a) -- (\b);
+\node[future,below=8mm of $(src.south)!0.5!(pre.south)$] (sensor)
+ {Future IMU sensor + MCU acquisition\\timer / data-ready interrupt, I\textsuperscript{2}C or SPI};
+\node[future,below=8mm of $(map.south)!0.5!(out.south)$] (radio)
+ {Future BLE / Wi-Fi receiver and appliance\\physical integration not implemented};
+\draw[flow,dashed] (sensor.north) -- ++(0,3mm) -| (src.south);
+\draw[flow,dashed] (out.south) -- ++(0,-3mm) -| (radio.north);
+\end{tikzpicture}

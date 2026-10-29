@@ -1,0 +1,263 @@
+{
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "confusion_matrix": [
+    [
+      50,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      50,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      50,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      50
+    ]
+  ],
+  "per_class": [
+    {
+      "label": "background",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 50
+    },
+    {
+      "label": "swipe_left",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 50
+    },
+    {
+      "label": "swipe_right",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 50
+    },
+    {
+      "label": "wave",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 50
+    }
+  ],
+  "synthetic_only": true,
+  "real_world_accuracy": "not evaluated",
+  "seed": 42,
+  "labels": [
+    "background",
+    "swipe_left",
+    "swipe_right",
+    "wave"
+  ],
+  "threshold": 0.8,
+  "sampling_hz": 50,
+  "window_samples": 64,
+  "stride_samples": 32,
+  "split_recordings": {
+    "train": 96,
+    "validation": 32,
+    "test": 40
+  },
+  "split_windows": {
+    "train": 480,
+    "validation": 160,
+    "test": 200
+  },
+  "model": "one-layer PyTorch GRU(6,16), Linear(16,4), FP32",
+  "parameter_count": 1220,
+  "parameter_payload_bytes": 4880,
+  "checkpoint_bytes": 7720,
+  "accepted_command_windows": 150,
+  "accepted_command_precision": 1.0,
+  "synthetic_background_command_windows": 0,
+  "host_inference_median_ms": 0.6679745,
+  "host_inference_p95_ms": 0.9489205999999999,
+  "timing_scope": "CPU batch=1, one thread, model-only, 10 warmups, 100 timed runs; not MCU or end-to-end latency",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "torch": "2.5.1+cpu",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+    "processor": ""
+  },
+  "mcu_latency": "not measured",
+  "mcu_peak_ram": "not measured",
+  "power": "not measured",
+  "training": {
+    "epochs": 30,
+    "selected_epoch": 30,
+    "validation_cross_entropy": 0.006878753658384085,
+    "training_seconds": 2.244455687000027,
+    "history": [
+      {
+        "epoch": 1,
+        "validation_cross_entropy": 1.2622010707855225
+      },
+      {
+        "epoch": 2,
+        "validation_cross_entropy": 1.1349116563796997
+      },
+      {
+        "epoch": 3,
+        "validation_cross_entropy": 0.962422251701355
+      },
+      {
+        "epoch": 4,
+        "validation_cross_entropy": 0.779633104801178
+      },
+      {
+        "epoch": 5,
+        "validation_cross_entropy": 0.6331695318222046
+      },
+      {
+        "epoch": 6,
+        "validation_cross_entropy": 0.4502933919429779
+      },
+      {
+        "epoch": 7,
+        "validation_cross_entropy": 0.2819879651069641
+      },
+      {
+        "epoch": 8,
+        "validation_cross_entropy": 0.1531800925731659
+      },
+      {
+        "epoch": 9,
+        "validation_cross_entropy": 0.08624497056007385
+      },
+      {
+        "epoch": 10,
+        "validation_cross_entropy": 0.05602996423840523
+      },
+      {
+        "epoch": 11,
+        "validation_cross_entropy": 0.04105188697576523
+      },
+      {
+        "epoch": 12,
+        "validation_cross_entropy": 0.03265925124287605
+      },
+      {
+        "epoch": 13,
+        "validation_cross_entropy": 0.02735925279557705
+      },
+      {
+        "epoch": 14,
+        "validation_cross_entropy": 0.023672137409448624
+      },
+      {
+        "epoch": 15,
+        "validation_cross_entropy": 0.020913179963827133
+      },
+      {
+        "epoch": 16,
+        "validation_cross_entropy": 0.018747147172689438
+      },
+      {
+        "epoch": 17,
+        "validation_cross_entropy": 0.01697942242026329
+      },
+      {
+        "epoch": 18,
+        "validation_cross_entropy": 0.015490139834582806
+      },
+      {
+        "epoch": 19,
+        "validation_cross_entropy": 0.014219124801456928
+      },
+      {
+        "epoch": 20,
+        "validation_cross_entropy": 0.013108216226100922
+      },
+      {
+        "epoch": 21,
+        "validation_cross_entropy": 0.012135321274399757
+      },
+      {
+        "epoch": 22,
+        "validation_cross_entropy": 0.011272376403212547
+      },
+      {
+        "epoch": 23,
+        "validation_cross_entropy": 0.010503241792321205
+      },
+      {
+        "epoch": 24,
+        "validation_cross_entropy": 0.009815288707613945
+      },
+      {
+        "epoch": 25,
+        "validation_cross_entropy": 0.009195864200592041
+      },
+      {
+        "epoch": 26,
+        "validation_cross_entropy": 0.008636277168989182
+      },
+      {
+        "epoch": 27,
+        "validation_cross_entropy": 0.008131296373903751
+      },
+      {
+        "epoch": 28,
+        "validation_cross_entropy": 0.0076739853248000145
+      },
+      {
+        "epoch": 29,
+        "validation_cross_entropy": 0.007257247809320688
+      },
+      {
+        "epoch": 30,
+        "validation_cross_entropy": 0.006878753658384085
+      }
+    ]
+  },
+  "examples": [
+    {
+      "true": "background",
+      "predicted": "background",
+      "confidence": 0.9949761629104614,
+      "command": "NO_COMMAND",
+      "recording_id": "test-0-00"
+    },
+    {
+      "true": "swipe_left",
+      "predicted": "swipe_left",
+      "confidence": 0.9917266368865967,
+      "command": "LIGHT_OFF",
+      "recording_id": "test-1-00"
+    },
+    {
+      "true": "swipe_right",
+      "predicted": "swipe_right",
+      "confidence": 0.9934044480323792,
+      "command": "LIGHT_ON",
+      "recording_id": "test-2-00"
+    },
+    {
+      "true": "wave",
+      "predicted": "wave",
+      "confidence": 0.9946723580360413,
+      "command": "FAN_TOGGLE",
+      "recording_id": "test-3-00"
+    }
+  ]
+}

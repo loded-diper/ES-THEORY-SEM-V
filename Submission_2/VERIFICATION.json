@@ -1,0 +1,28 @@
+{
+  "report_pages": 5,
+  "presentation_slides": 8,
+  "research_papers_2020_onward": 10,
+  "independently_verified_scopus_records": 0,
+  "pipeline_tests_passed": 7,
+  "fresh_retraining_reproduced_classification_results": true,
+  "standalone_overleaf_zip_compiled": true,
+  "real_data_results": false,
+  "mcu_results": false,
+  "similarity_report_generated": false,
+  "online_overleaf_project_created": false,
+  "remaining_checks": [
+    "institutional Scopus paper/coverage verification",
+    "institution-approved similarity report",
+    "any extra requirements in original faculty guidelines not supplied"
+  ],
+  "latest_scopus_retry": {
+    "checked_at_utc": "2026-10-29T08:12:37.925421+00:00",
+    "normal_requests": 6,
+    "escalated_requests": 3,
+    "execution_authorized": true,
+    "all_requests_proxy_blocked": true,
+    "saved_draft_contains_research_domains": true,
+    "runtime_policy_application_status": "unknown; live proxy still denies access",
+    "new_indexed_papers_verified": 0
+  }
+}

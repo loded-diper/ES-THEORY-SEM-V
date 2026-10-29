@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-10-29T08:12:10.059897+00:00",
+  "results": [
+    {
+      "source": "scopus",
+      "url": "https://www.scopus.com/sources",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "elsevier",
+      "url": "https://www.elsevier.com/products/scopus/content",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "scimago",
+      "url": "https://www.scimagojr.com/journalsearch.php?q=IEEE%20Transactions%20on%20Computers",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "dory_crossref",
+      "url": "https://api.crossref.org/works/10.1109/TC.2021.3066883",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "tinyhar_kit",
+      "url": "https://publikationen.bibliothek.kit.edu/1000150216",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "acm",
+      "url": "https://dl.acm.org/doi/10.1145/3534594",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}

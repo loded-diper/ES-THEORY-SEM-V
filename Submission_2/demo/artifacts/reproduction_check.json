@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "seed": 42,
+  "compared_fields": [
+    "accuracy",
+    "macro_f1",
+    "macro_precision",
+    "macro_recall",
+    "confusion_matrix",
+    "parameter_count",
+    "split_windows",
+    "examples"
+  ],
+  "note": "Fresh training run in a separate output directory reproduced the recorded classification results and example commands. Timing is intentionally not compared."
+}

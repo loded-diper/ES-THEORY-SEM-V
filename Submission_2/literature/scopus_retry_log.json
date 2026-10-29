@@ -1,0 +1,54 @@
+{
+  "checked_at_utc": "2026-10-29T08:08:06.534235+00:00",
+  "attempt": "fresh direct HTTPS retry",
+  "results": [
+    {
+      "source": "scopus_sources",
+      "url": "https://www.scopus.com/sources",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "elsevier_scopus_content",
+      "url": "https://www.elsevier.com/products/scopus/content",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "elsevier_abstract_dory",
+      "url": "https://api.elsevier.com/content/abstract/doi/10.1109/TC.2021.3066883",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "scimago_ieee_tc",
+      "url": "https://www.scimagojr.com/journalsearch.php?q=IEEE%20Transactions%20on%20Computers",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "acm_imwut",
+      "url": "https://dl.acm.org/journal/imwut",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "ieee_dory",
+      "url": "https://ieeexplore.ieee.org/document/9381618",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "institutional_tinyhar",
+      "url": "https://publikationen.bibliothek.kit.edu/1000150216",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "source": "crossref_dory",
+      "url": "https://api.crossref.org/works/10.1109/TC.2021.3066883",
+      "error_type": "URLError",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}

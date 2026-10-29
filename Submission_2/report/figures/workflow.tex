@@ -1,0 +1,12 @@
+\begin{tikzpicture}[font=\footnotesize,
+ box/.style={draw=black!80,fill=black!4,rounded corners=1.5pt,
+ text width=69mm,align=center,minimum height=9mm,inner sep=3pt},
+ flow/.style={-{Stealth[length=1.7mm]},line width=.65pt}]
+\node[box] (split) {Seed 42: independent synthetic recordings\\Split first: 96 train / 32 validation / 40 test};
+\node[box,below=4mm of split] (prep) {Causal filter; training-only normalization\\64 samples, six channels, stride 32};
+\node[box,below=4mm of prep] (train) {Train GRU(6,16) + four-class head\\480 training windows; Adam; 30 epochs};
+\node[box,below=4mm of train] (val) {Select minimum-validation-loss checkpoint\\160 validation windows; test labels untouched};
+\node[box,below=4mm of val] (test) {Evaluate 200 held-out synthetic windows\\Metrics, confidence rule, commands, host-only timing};
+\foreach \a/\b in {split/prep,prep/train,train/val,val/test}
+ \draw[flow] (\a) -- (\b);
+\end{tikzpicture}

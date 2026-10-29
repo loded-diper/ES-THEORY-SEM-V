@@ -1,0 +1,1010 @@
+[
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-00",
+    "generator_seed": 4200000
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-01",
+    "generator_seed": 4200001
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-02",
+    "generator_seed": 4200002
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-03",
+    "generator_seed": 4200003
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-04",
+    "generator_seed": 4200004
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-05",
+    "generator_seed": 4200005
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-06",
+    "generator_seed": 4200006
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-07",
+    "generator_seed": 4200007
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-08",
+    "generator_seed": 4200008
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-09",
+    "generator_seed": 4200009
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-10",
+    "generator_seed": 4200010
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-11",
+    "generator_seed": 4200011
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-12",
+    "generator_seed": 4200012
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-13",
+    "generator_seed": 4200013
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-14",
+    "generator_seed": 4200014
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-15",
+    "generator_seed": 4200015
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-16",
+    "generator_seed": 4200016
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-17",
+    "generator_seed": 4200017
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-18",
+    "generator_seed": 4200018
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-19",
+    "generator_seed": 4200019
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-20",
+    "generator_seed": 4200020
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-21",
+    "generator_seed": 4200021
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-22",
+    "generator_seed": 4200022
+  },
+  {
+    "split": "train",
+    "label": "background",
+    "recording_id": "train-0-23",
+    "generator_seed": 4200023
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-00",
+    "generator_seed": 4200100
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-01",
+    "generator_seed": 4200101
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-02",
+    "generator_seed": 4200102
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-03",
+    "generator_seed": 4200103
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-04",
+    "generator_seed": 4200104
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-05",
+    "generator_seed": 4200105
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-06",
+    "generator_seed": 4200106
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-07",
+    "generator_seed": 4200107
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-08",
+    "generator_seed": 4200108
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-09",
+    "generator_seed": 4200109
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-10",
+    "generator_seed": 4200110
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-11",
+    "generator_seed": 4200111
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-12",
+    "generator_seed": 4200112
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-13",
+    "generator_seed": 4200113
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-14",
+    "generator_seed": 4200114
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-15",
+    "generator_seed": 4200115
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-16",
+    "generator_seed": 4200116
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-17",
+    "generator_seed": 4200117
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-18",
+    "generator_seed": 4200118
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-19",
+    "generator_seed": 4200119
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-20",
+    "generator_seed": 4200120
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-21",
+    "generator_seed": 4200121
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-22",
+    "generator_seed": 4200122
+  },
+  {
+    "split": "train",
+    "label": "swipe_left",
+    "recording_id": "train-1-23",
+    "generator_seed": 4200123
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-00",
+    "generator_seed": 4200200
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-01",
+    "generator_seed": 4200201
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-02",
+    "generator_seed": 4200202
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-03",
+    "generator_seed": 4200203
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-04",
+    "generator_seed": 4200204
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-05",
+    "generator_seed": 4200205
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-06",
+    "generator_seed": 4200206
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-07",
+    "generator_seed": 4200207
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-08",
+    "generator_seed": 4200208
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-09",
+    "generator_seed": 4200209
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-10",
+    "generator_seed": 4200210
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-11",
+    "generator_seed": 4200211
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-12",
+    "generator_seed": 4200212
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-13",
+    "generator_seed": 4200213
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-14",
+    "generator_seed": 4200214
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-15",
+    "generator_seed": 4200215
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-16",
+    "generator_seed": 4200216
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-17",
+    "generator_seed": 4200217
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-18",
+    "generator_seed": 4200218
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-19",
+    "generator_seed": 4200219
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-20",
+    "generator_seed": 4200220
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-21",
+    "generator_seed": 4200221
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-22",
+    "generator_seed": 4200222
+  },
+  {
+    "split": "train",
+    "label": "swipe_right",
+    "recording_id": "train-2-23",
+    "generator_seed": 4200223
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-00",
+    "generator_seed": 4200300
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-01",
+    "generator_seed": 4200301
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-02",
+    "generator_seed": 4200302
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-03",
+    "generator_seed": 4200303
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-04",
+    "generator_seed": 4200304
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-05",
+    "generator_seed": 4200305
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-06",
+    "generator_seed": 4200306
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-07",
+    "generator_seed": 4200307
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-08",
+    "generator_seed": 4200308
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-09",
+    "generator_seed": 4200309
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-10",
+    "generator_seed": 4200310
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-11",
+    "generator_seed": 4200311
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-12",
+    "generator_seed": 4200312
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-13",
+    "generator_seed": 4200313
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-14",
+    "generator_seed": 4200314
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-15",
+    "generator_seed": 4200315
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-16",
+    "generator_seed": 4200316
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-17",
+    "generator_seed": 4200317
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-18",
+    "generator_seed": 4200318
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-19",
+    "generator_seed": 4200319
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-20",
+    "generator_seed": 4200320
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-21",
+    "generator_seed": 4200321
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-22",
+    "generator_seed": 4200322
+  },
+  {
+    "split": "train",
+    "label": "wave",
+    "recording_id": "train-3-23",
+    "generator_seed": 4200323
+  },
+  {
+    "split": "validation",
+    "label": "background",
+    "recording_id": "validation-0-00",
+    "generator_seed": 4210000
+  },
+  {
+    "split": "validation",
+    "label": "background",
+    "recording_id": "validation-0-01",
+    "generator_seed": 4210001
+  },
+  {
+    "split": "validation",
+    "label": "background",
+    "recording_id": "validation-0-02",
+    "generator_seed": 4210002
+  },
+  {
+    "split": "validation",
+    "label": "background",
+    "recording_id": "validation-0-03",
+    "generator_seed": 4210003
+  },
+  {
+    "split": "validation",
+    "label": "background",
+    "recording_id": "validation-0-04",
+    "generator_seed": 4210004
+  },
+  {
+    "split": "validation",
+    "label": "background",
+    "recording_id": "validation-0-05",
+    "generator_seed": 4210005
+  },
+  {
+    "split": "validation",
+    "label": "background",
+    "recording_id": "validation-0-06",
+    "generator_seed": 4210006
+  },
+  {
+    "split": "validation",
+    "label": "background",
+    "recording_id": "validation-0-07",
+    "generator_seed": 4210007
+  },
+  {
+    "split": "validation",
+    "label": "swipe_left",
+    "recording_id": "validation-1-00",
+    "generator_seed": 4210100
+  },
+  {
+    "split": "validation",
+    "label": "swipe_left",
+    "recording_id": "validation-1-01",
+    "generator_seed": 4210101
+  },
+  {
+    "split": "validation",
+    "label": "swipe_left",
+    "recording_id": "validation-1-02",
+    "generator_seed": 4210102
+  },
+  {
+    "split": "validation",
+    "label": "swipe_left",
+    "recording_id": "validation-1-03",
+    "generator_seed": 4210103
+  },
+  {
+    "split": "validation",
+    "label": "swipe_left",
+    "recording_id": "validation-1-04",
+    "generator_seed": 4210104
+  },
+  {
+    "split": "validation",
+    "label": "swipe_left",
+    "recording_id": "validation-1-05",
+    "generator_seed": 4210105
+  },
+  {
+    "split": "validation",
+    "label": "swipe_left",
+    "recording_id": "validation-1-06",
+    "generator_seed": 4210106
+  },
+  {
+    "split": "validation",
+    "label": "swipe_left",
+    "recording_id": "validation-1-07",
+    "generator_seed": 4210107
+  },
+  {
+    "split": "validation",
+    "label": "swipe_right",
+    "recording_id": "validation-2-00",
+    "generator_seed": 4210200
+  },
+  {
+    "split": "validation",
+    "label": "swipe_right",
+    "recording_id": "validation-2-01",
+    "generator_seed": 4210201
+  },
+  {
+    "split": "validation",
+    "label": "swipe_right",
+    "recording_id": "validation-2-02",
+    "generator_seed": 4210202
+  },
+  {
+    "split": "validation",
+    "label": "swipe_right",
+    "recording_id": "validation-2-03",
+    "generator_seed": 4210203
+  },
+  {
+    "split": "validation",
+    "label": "swipe_right",
+    "recording_id": "validation-2-04",
+    "generator_seed": 4210204
+  },
+  {
+    "split": "validation",
+    "label": "swipe_right",
+    "recording_id": "validation-2-05",
+    "generator_seed": 4210205
+  },
+  {
+    "split": "validation",
+    "label": "swipe_right",
+    "recording_id": "validation-2-06",
+    "generator_seed": 4210206
+  },
+  {
+    "split": "validation",
+    "label": "swipe_right",
+    "recording_id": "validation-2-07",
+    "generator_seed": 4210207
+  },
+  {
+    "split": "validation",
+    "label": "wave",
+    "recording_id": "validation-3-00",
+    "generator_seed": 4210300
+  },
+  {
+    "split": "validation",
+    "label": "wave",
+    "recording_id": "validation-3-01",
+    "generator_seed": 4210301
+  },
+  {
+    "split": "validation",
+    "label": "wave",
+    "recording_id": "validation-3-02",
+    "generator_seed": 4210302
+  },
+  {
+    "split": "validation",
+    "label": "wave",
+    "recording_id": "validation-3-03",
+    "generator_seed": 4210303
+  },
+  {
+    "split": "validation",
+    "label": "wave",
+    "recording_id": "validation-3-04",
+    "generator_seed": 4210304
+  },
+  {
+    "split": "validation",
+    "label": "wave",
+    "recording_id": "validation-3-05",
+    "generator_seed": 4210305
+  },
+  {
+    "split": "validation",
+    "label": "wave",
+    "recording_id": "validation-3-06",
+    "generator_seed": 4210306
+  },
+  {
+    "split": "validation",
+    "label": "wave",
+    "recording_id": "validation-3-07",
+    "generator_seed": 4210307
+  },
+  {
+    "split": "test",
+    "label": "background",
+    "recording_id": "test-0-00",
+    "generator_seed": 4220000
+  },
+  {
+    "split": "test",
+    "label": "background",
+    "recording_id": "test-0-01",
+    "generator_seed": 4220001
+  },
+  {
+    "split": "test",
+    "label": "background",
+    "recording_id": "test-0-02",
+    "generator_seed": 4220002
+  },
+  {
+    "split": "test",
+    "label": "background",
+    "recording_id": "test-0-03",
+    "generator_seed": 4220003
+  },
+  {
+    "split": "test",
+    "label": "background",
+    "recording_id": "test-0-04",
+    "generator_seed": 4220004
+  },
+  {
+    "split": "test",
+    "label": "background",
+    "recording_id": "test-0-05",
+    "generator_seed": 4220005
+  },
+  {
+    "split": "test",
+    "label": "background",
+    "recording_id": "test-0-06",
+    "generator_seed": 4220006
+  },
+  {
+    "split": "test",
+    "label": "background",
+    "recording_id": "test-0-07",
+    "generator_seed": 4220007
+  },
+  {
+    "split": "test",
+    "label": "background",
+    "recording_id": "test-0-08",
+    "generator_seed": 4220008
+  },
+  {
+    "split": "test",
+    "label": "background",
+    "recording_id": "test-0-09",
+    "generator_seed": 4220009
+  },
+  {
+    "split": "test",
+    "label": "swipe_left",
+    "recording_id": "test-1-00",
+    "generator_seed": 4220100
+  },
+  {
+    "split": "test",
+    "label": "swipe_left",
+    "recording_id": "test-1-01",
+    "generator_seed": 4220101
+  },
+  {
+    "split": "test",
+    "label": "swipe_left",
+    "recording_id": "test-1-02",
+    "generator_seed": 4220102
+  },
+  {
+    "split": "test",
+    "label": "swipe_left",
+    "recording_id": "test-1-03",
+    "generator_seed": 4220103
+  },
+  {
+    "split": "test",
+    "label": "swipe_left",
+    "recording_id": "test-1-04",
+    "generator_seed": 4220104
+  },
+  {
+    "split": "test",
+    "label": "swipe_left",
+    "recording_id": "test-1-05",
+    "generator_seed": 4220105
+  },
+  {
+    "split": "test",
+    "label": "swipe_left",
+    "recording_id": "test-1-06",
+    "generator_seed": 4220106
+  },
+  {
+    "split": "test",
+    "label": "swipe_left",
+    "recording_id": "test-1-07",
+    "generator_seed": 4220107
+  },
+  {
+    "split": "test",
+    "label": "swipe_left",
+    "recording_id": "test-1-08",
+    "generator_seed": 4220108
+  },
+  {
+    "split": "test",
+    "label": "swipe_left",
+    "recording_id": "test-1-09",
+    "generator_seed": 4220109
+  },
+  {
+    "split": "test",
+    "label": "swipe_right",
+    "recording_id": "test-2-00",
+    "generator_seed": 4220200
+  },
+  {
+    "split": "test",
+    "label": "swipe_right",
+    "recording_id": "test-2-01",
+    "generator_seed": 4220201
+  },
+  {
+    "split": "test",
+    "label": "swipe_right",
+    "recording_id": "test-2-02",
+    "generator_seed": 4220202
+  },
+  {
+    "split": "test",
+    "label": "swipe_right",
+    "recording_id": "test-2-03",
+    "generator_seed": 4220203
+  },
+  {
+    "split": "test",
+    "label": "swipe_right",
+    "recording_id": "test-2-04",
+    "generator_seed": 4220204
+  },
+  {
+    "split": "test",
+    "label": "swipe_right",
+    "recording_id": "test-2-05",
+    "generator_seed": 4220205
+  },
+  {
+    "split": "test",
+    "label": "swipe_right",
+    "recording_id": "test-2-06",
+    "generator_seed": 4220206
+  },
+  {
+    "split": "test",
+    "label": "swipe_right",
+    "recording_id": "test-2-07",
+    "generator_seed": 4220207
+  },
+  {
+    "split": "test",
+    "label": "swipe_right",
+    "recording_id": "test-2-08",
+    "generator_seed": 4220208
+  },
+  {
+    "split": "test",
+    "label": "swipe_right",
+    "recording_id": "test-2-09",
+    "generator_seed": 4220209
+  },
+  {
+    "split": "test",
+    "label": "wave",
+    "recording_id": "test-3-00",
+    "generator_seed": 4220300
+  },
+  {
+    "split": "test",
+    "label": "wave",
+    "recording_id": "test-3-01",
+    "generator_seed": 4220301
+  },
+  {
+    "split": "test",
+    "label": "wave",
+    "recording_id": "test-3-02",
+    "generator_seed": 4220302
+  },
+  {
+    "split": "test",
+    "label": "wave",
+    "recording_id": "test-3-03",
+    "generator_seed": 4220303
+  },
+  {
+    "split": "test",
+    "label": "wave",
+    "recording_id": "test-3-04",
+    "generator_seed": 4220304
+  },
+  {
+    "split": "test",
+    "label": "wave",
+    "recording_id": "test-3-05",
+    "generator_seed": 4220305
+  },
+  {
+    "split": "test",
+    "label": "wave",
+    "recording_id": "test-3-06",
+    "generator_seed": 4220306
+  },
+  {
+    "split": "test",
+    "label": "wave",
+    "recording_id": "test-3-07",
+    "generator_seed": 4220307
+  },
+  {
+    "split": "test",
+    "label": "wave",
+    "recording_id": "test-3-08",
+    "generator_seed": 4220308
+  },
+  {
+    "split": "test",
+    "label": "wave",
+    "recording_id": "test-3-09",
+    "generator_seed": 4220309
+  }
+]
