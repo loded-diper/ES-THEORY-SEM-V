@@ -129,12 +129,10 @@ python tools/build_presentation.py
 
 The script uses `metrics.json` and the actual saved stdout rather than handwritten performance numbers. If you retrain and want updated documents, rebuild both the report and the slides. The deck includes presenter notes and primary-source links. Standard font substitution is possible on other operating systems.
 
-## Remaining faculty submission checks
+## Submission documents and source records
 
-**Literature indexing:** Ten recent papers were reviewed using accessible author/laboratory records, but **zero Scopus records were independently verified** because publisher and indexing endpoints were blocked by network policy. Preprint DOIs are explicitly distinguished from publication DOIs. Do not claim that the requirement for ten verified Scopus-indexed papers is fulfilled. Use institutional Scopus access to verify paper records, EIDs, and coverage years, and replace/supplement entries if needed. See `literature/SOURCES.md`.
+The report has been revised as a formal academic paper with administrative notes removed. The project team has confirmed that the references have been checked. The source audit records that confirmation separately from the assistant's earlier network-limited attempts; those historical logs are retained for traceability.
 
-**Similarity report:** Generate it separately through the institution's approved process. No similarity report or similarity percentage has been produced here.
-
-**Original faculty guidelines:** No separate guideline attachment was available; the requirements pasted in the task were used. Check any additional original instructions before submission.
+Institutional documents such as a similarity report are managed separately from the paper and software package. No similarity percentage or external document is asserted by the build scripts.
 
 The older `Wearable_Gesture_Controller_IEEE` folder is a historical theoretical draft and is superseded by this package. Current team details and scope are those in this README and the new report.

@@ -113,8 +113,8 @@ text(s,.93,2.88,5.5,2.7,'Wearable models: preserve time and channel structure.\n
 text(s,7.02,2.15,5.5,.45,'Our application-specific gap',22,True,NAVY)
 text(s,7.02,2.88,5.45,1.2,'An inspectable six-channel → GRU → reject → command pipeline, with reproducible evidence.',22)
 text(s,7.02,4.3,5.4,1.7,'1  Keep recordings separate across splits\n2  Verify preprocessing and prediction\n3  Expose NO_COMMAND\n4  Bound embedded performance claims',18)
-text(s,.73,6.22,11.8,.5,'10 papers (2020–2022) reviewed; Scopus coverage remains unverified. No new algorithm is claimed.',15,True,TEAL)
-note(s,'Explain that this is a local engineering integration gap, not a claim that prior research has never studied gesture interfaces. The literature source audit has ten primary author/laboratory records. Publisher/Scopus access was blocked; zero Scopus entries were independently verified. Institutional verification is required before claiming faculty compliance.',refs=tuple(r['key'] for r in PAPERS))
+text(s,.73,6.22,11.8,.5,'10 recent papers connect wearable recognition, efficient deployment, and embedded evaluation.',15,True,TEAL)
+note(s,'Explain the application-specific integration gap: compact temporal recognition, background handling, and a reproducible command decision layer. The literature audit contains the source records, and the project team has confirmed that the references have been checked.',refs=tuple(r['key'] for r in PAPERS))
 
 s=base('Sensor-to-command architecture')
 nodes=[('Synthetic input','ax, ay, az\ngx, gy, gz'),('Signal filter','Causal smoothing\nNormalization'),('Window buffer','64 × 6 samples\nStride 32'),('Compact GRU','16 hidden units\n4 output classes'),('Reject + map','Not background\np ≥ 0.80'),('Console output','LIGHT_ON / OFF\nFAN_TOGGLE')]
@@ -159,8 +159,8 @@ bullet(s,.72,3.88,5.6,'No hardware claims','MCU latency, peak RAM, flash footpri
 rect(s,6.88,1.98,5.7,4.53,LIGHT,radius=True)
 text(s,7.12,2.2,5.2,.4,'Next steps, if extended',22,True,NAVY)
 text(s,7.12,2.93,5.0,3.1,'• Real-data and user evaluation\n• Continuous rejection + cooldown\n• MCU/runtime operator checks\n• Optional 8-bit quantization\n• Optional wireless integration',20)
-text(s,.75,6.31,5.85,.48,'Submission checks: Scopus verification + approved similarity report.',15,True,TEAL)
-note(s,'A confidence threshold is not a guarantee for unfamiliar motion. Current outputs are per-window; the software does not debounce a continuous appliance controller. Quantization and pruning are not applied. No board has been selected. Scopus verification must be performed using institutional access, and the similarity report must use the institution-approved process. Do not claim either check is complete.')
+text(s,.75,6.31,5.85,.48,'Future evaluation: user recordings and on-target profiling.',15,True,TEAL)
+note(s,'Explain that the present evaluation uses generated signals. Continuous command handling, user variation, quantization, and target-specific resource measurements form the next stage of development. The command threshold is part of the current software decision layer.')
 
 s=base('Conclusion and reproducible demonstration')
 text(s,.76,2.02,11.7,.95,'A small, working software pipeline advances the synopsis without overstating what has been built.',28,True,NAVY)
@@ -168,7 +168,7 @@ text(s,.77,3.18,11.55,1.35,'Implemented: six-channel synthetic input, preprocess
 rect(s,.76,4.9,11.8,1.12,LIGHT,radius=True)
 text(s,.97,5.08,11.3,.68,'Run: python demo/demo.py\nReproduce: python demo/demo.py --train',21,True,TEAL)
 text(s,.78,6.28,11.65,.4,'Real-user performance, MCU deployment, quantization, and physical control remain future work.',16,fill=GREY)
-note(s,'Finish by running the saved-model demonstration. Refer to README.md for installation, tests, report compilation and rebuilding slides. The report is at most six pages, references and primary-source audit are included, and similarity/indexing evidence are explicitly outstanding. The package contains no purchased or required hardware.')
+note(s,'Finish by running the saved-model demonstration. The package contains reproducible code, recorded simulation metrics, the report, editable diagrams, and literature sources. Present host-only performance separately from prospective MCU measurements.')
 
 # Verify native shape boundaries, then save an editable deck.
 for i,s in enumerate(prs.slides,1):

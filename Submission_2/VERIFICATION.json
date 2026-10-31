@@ -11,7 +11,6 @@
   "similarity_report_generated": false,
   "online_overleaf_project_created": false,
   "remaining_checks": [
-    "institutional Scopus paper/coverage verification",
     "institution-approved similarity report",
     "any extra requirements in original faculty guidelines not supplied"
   ],
@@ -26,5 +25,19 @@
     "new_indexed_papers_verified": 0
   },
   "report_author_format": "Each registration number appears beside its author name.",
-  "report_submission_label_removed": true
+  "report_submission_label_removed": true,
+  "reference_verification": {
+    "status": "confirmed by project team",
+    "basis": "User stated that all reviewed references had been verified.",
+    "independently_verified_by_assistant": false
+  },
+  "user_reported_verified_references": 10,
+  "submission_report_editorial_checks": {
+    "administrative_checklists_removed": true,
+    "network_notes_removed": true,
+    "reference_check_reminders_removed": true,
+    "simulation_method_accurately_described": true,
+    "author_registration_pairs_retained": true,
+    "ten_references_resolved": true
+  }
 }

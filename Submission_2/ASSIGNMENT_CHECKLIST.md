@@ -18,7 +18,7 @@ No separate faculty-guidelines attachment was present in the workspace. No claim
 | IEEE conference format, maximum six pages | `report/report.tex` uses unmodified IEEEtran conference class; compiled PDF is checked during verification. |
 | Introduction and problem statement | Report Section I. |
 | Literature survey | Section II; ten distinct papers published in 2020–2022. |
-| At least ten verified Scopus-indexed papers | **Outstanding. Zero independently verified Scopus records.** Primary author records support the shortlist, but indexing and publisher cross-checks were blocked by network policy. See `literature/verification.csv`. |
+| At least ten verified Scopus-indexed papers | Project team confirmation recorded following the user's statement that all references have been verified. Earlier automated access attempts remain in `literature/verification.csv` as historical evidence, distinct from team verification. |
 | Explicit research gap and objectives | Section III; application-specific engineering integration gap, not an unsupported novelty claim. |
 | Proposed methodology and block diagram | Section IV and editable TikZ architecture figure. |
 | Pseudocode | Section V and numbered pseudocode box. |
@@ -37,4 +37,4 @@ Implemented: synthetic six-axis generator, causal filtering, fixed windows, trai
 
 Analytical or future only: LSTM comparison, 8-bit quantization, pruning, MCU sampling and inference, continuous-controller cooldown, BLE/Wi-Fi receiver, physical actuation, real-user generalization, MCU resource measurements, power, and battery life.
 
-No online Overleaf project or similarity report has been created. This package should not be described as fully satisfying the indexing requirement until institutional verification is completed.
+No online Overleaf project or similarity report has been created. The reference-check status reflects the project team's confirmation; the assistant does not claim to have independently obtained Scopus record exports.

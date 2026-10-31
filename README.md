@@ -18,11 +18,11 @@ V Semester B.Tech. IT, MIT Manipal.
 - [Eight-slide PowerPoint](Submission_2/presentation.pptx)
 - [Python demonstration](Submission_2/demo/demo.py)
 - [Literature and verification audit](Submission_2/literature/SOURCES.md)
-- [Assignment checklist and outstanding requirements](Submission_2/ASSIGNMENT_CHECKLIST.md)
+- [Assignment checklist](Submission_2/ASSIGNMENT_CHECKLIST.md)
 
 The working software uses explicitly synthetic six-axis input, a compact trained GRU, and symbolic console commands. Its synthetic test scores do not estimate real-world gesture accuracy. No MCU, sensor, radio, or appliance is required or claimed as implemented.
 
-Ten recent research papers are reviewed, but their Scopus coverage has **not** been independently verified. Institutional indexing verification and a separate institution-approved similarity report remain required submission checks.
+The report reviews ten recent research papers. The project team has confirmed that the references have been checked; bibliographic sources and the history of earlier automated access checks are retained in the literature audit.
 
 Quick start after installing [the Python requirements](Submission_2/demo/requirements.txt):
 
