@@ -24,5 +24,7 @@
     "saved_draft_contains_research_domains": true,
     "runtime_policy_application_status": "unknown; live proxy still denies access",
     "new_indexed_papers_verified": 0
-  }
+  },
+  "report_author_format": "Each registration number appears beside its author name.",
+  "report_submission_label_removed": true
 }

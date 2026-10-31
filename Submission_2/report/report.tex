@@ -4,16 +4,15 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta,positioning,calc}
 \usepackage[hidelinks]{hyperref}
-\hypersetup{pdftitle={Wearable Gesture Controller: Submission 2},
+\hypersetup{pdftitle={Wearable Gesture Controller: An IMU-Based Edge Device for Gesture-Driven Smart Home Control},
 pdfauthor={Arya Choudhary, Sanika Singh, Vishad Sharma},
 pdfsubject={ICT 3132 Embedded Systems, MIT Manipal}}
 \input{results.tex}
 \begin{document}
 \title{Wearable Gesture Controller: An IMU-Based Edge Device for Gesture-Driven Smart Home Control}
-\author{\IEEEauthorblockN{Arya Choudhary, Sanika Singh, and Vishad Sharma}
+\author{\IEEEauthorblockN{Arya Choudhary (240911438), Sanika Singh (240911664), and Vishad Sharma (240911580)}
 \IEEEauthorblockA{School of Computer Engineering, Manipal Institute of Technology, Manipal, India\\
-ICT 3132 Embedded Systems, V Semester B.Tech. (IT), Submission 2\\
-Registration numbers: 240911438, 240911664, and 240911580, respectively}}
+ICT 3132 Embedded Systems, V Semester B.Tech. (IT)}}
 \maketitle
 \begin{abstract}
 Wrist-motion input could complement smart-home interfaces for people whose speech, reach, or dexterity makes conventional controls difficult to use. This project proposes an inertial measurement unit (IMU)-to-command architecture and implements a small, hardware-free software demonstration. The executable pipeline generates explicitly synthetic six-channel streams, applies causal filtering and training-only normalization, forms fixed-length windows, and classifies them with a 16-unit gated recurrent unit (GRU). A background class and confidence threshold produce a no-command outcome. Independent recordings are assigned to training, validation, and test partitions before windowing. On \TestWindows{} held-out synthetic windows, the recorded run obtained \TestAccuracy\ accuracy and macro-F1 of \MacroFone. These values show that the code learns its deliberately simple signal generator; they do not estimate real-world gesture accuracy. The report reviews ten recent research papers, identifies an application-specific integration gap, and discusses buffering, operator support, memory, latency, and optional quantization. No MCU deployment, physical appliance control, or power measurement is claimed. Scopus coverage of the reviewed papers remains unverified and requires institutional confirmation.
@@ -27,7 +26,7 @@ Smart-home interaction commonly relies on switches, touchscreens, remote control
 
 An IMU supplies three accelerometer and three gyroscope channels without a camera's dependence on lighting or line of sight. A local classifier could translate a short motion sequence into a symbolic command without transmitting raw sensor traces to a cloud service. However, everyday movements can resemble intentional gestures. A useful interface therefore requires both recognition and a reliable no-command path, together with limits on processing delay and resource use.
 
-The project synopsis proposes a wearable controller, an LSTM baseline, a lightweight alternative, compression, and a receiver for smart-home control. Submission 2 develops that concept into a concise design and a working laptop demonstration. The problem addressed here is: \emph{how can a bounded six-channel processing pipeline translate motion-like input into commands, reject background or uncertain predictions, and expose the evidence still needed for embedded deployment?} The implementation is restricted to a reproducible software pipeline. Wireless links and physical actuation remain proposed extensions.
+The project synopsis proposes a wearable controller, an LSTM baseline, a lightweight alternative, compression, and a receiver for smart-home control. This report develops that concept into a concise design and a working laptop demonstration. The problem addressed here is: \emph{how can a bounded six-channel processing pipeline translate motion-like input into commands, reject background or uncertain predictions, and expose the evidence still needed for embedded deployment?} The implementation is restricted to a reproducible software pipeline. Wireless links and physical actuation remain proposed extensions.
 
 The demonstration uses synthetic data because a suitable real wrist-command dataset could not be obtained and verified under the available network access. Synthetic streams make preprocessing, tensor shapes, split separation, prediction, and command mapping inspectable. They cannot establish clinical usefulness, generalization to people, or robustness to arbitrary everyday motion. All empirical results in this report refer exclusively to that synthetic software experiment.
 
@@ -186,7 +185,7 @@ The principal limitation is the synthetic signal distribution: real motion intro
 The LSTM comparison, quantization, target selection, wireless receiver, and appliance interface remain analytical or future work. Literature indexing verification and an institution-approved similarity report are separate outstanding submission checks. Future development should first validate a suitable real-data protocol and MCU/runtime operator support, then measure on-target resource use. Additional applications or dashboards are unnecessary for the present scope.
 
 \section{Conclusion}
-Submission 2 delivers an executable six-channel synthetic processing and command-generation demonstration alongside an embedded-oriented design. A compact GRU, training-only normalization, recording-level split, background class, and confidence rejection provide a clear and reproducible software example. Actual synthetic metrics and host timings are reported with explicit boundaries; no result is presented as a real-user or MCU benchmark. The literature supports attention to temporal structure, memory behaviour, and evaluation scope while leaving indexing confirmation outstanding. The package advances the synopsis from a theoretical architecture to a working software pipeline without claiming hardware deployment or validated assistive performance.
+This work delivers an executable six-channel synthetic processing and command-generation demonstration alongside an embedded-oriented design. A compact GRU, training-only normalization, recording-level split, background class, and confidence rejection provide a clear and reproducible software example. Actual synthetic metrics and host timings are reported with explicit boundaries; no result is presented as a real-user or MCU benchmark. The literature supports attention to temporal structure, memory behaviour, and evaluation scope while leaving indexing confirmation outstanding. The package advances the synopsis from a theoretical architecture to a working software pipeline without claiming hardware deployment or validated assistive performance.
 
 \bibliographystyle{IEEEtran}
 \bibliography{references}
